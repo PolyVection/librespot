@@ -75,7 +75,7 @@ struct Setup {
     backend: fn(Option<String>) -> Box<Sink>,
     device: Option<String>,
 
-    mixer: fn(Option<String>) -> Box<Mixer>),
+    mixer: fn(Option<String>) -> Box<Mixer>,
 
     cache: Option<Cache>,
     player_config: PlayerConfig,
